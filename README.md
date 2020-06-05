@@ -16,3 +16,9 @@ The logical order to check them out is:
 6. validation. Validation of the recommendation system. Testing and setting of metrics and parameters for the specific corpus. 
 
 Every notebook includes every needed function from previous ones, so that it can work independently of the rest of notebooks.
+
+Additional files:
+
+- NRC-Emotion-Lexicon-Wordlevel-v0.92.txt. The EmoLex used in this project to label word. Downloaded from http://sentiment.nrc.ca/lexicons-for-research/
+
+- eng_stop-wods.txt. List of English stop words. Taken from https://gist.github.com/sebleier/554280
