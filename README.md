@@ -3,11 +3,11 @@ Jupyter notebooks written in Python, with the different parts of the code writte
 
 The logical order to check them out is:
 
-1. scraper. The corpus retriever. It gets the raw info about reviews and sinopsys using the Goodreads API and it stores it on a mongoDB collection.
+1. scraper. The corpuses retriever. It gets the raw info about reviews and sinopsys using the Goodreads API and it stores it on a MongoDB collection.
 
-2. metadata. It gets the emotion analysis from the two corpuses, user's reviews and synopsis of the books, and it stores it on mongoDB collections.
+2. metadata. It gets the emotion analysis from the two corpuses, user's reviews and synopsis of the books, and it stores them on MongoDB collections.
 
-3. datasetAnalysyis. General analysis of the emotions of the texts of the two corpuses considered in the study.
+3. datasetAnalysis. General analysis of the emotions of the texts of the two corpuses considered in the study.
 
 4. recSysI. Recommendation system. First steps. Study of solutions to skip decieving texts.
 
@@ -19,6 +19,6 @@ Every notebook includes every needed function from previous ones, so that it can
 
 Additional files:
 
-- NRC-Emotion-Lexicon-Wordlevel-v0.92.txt. The EmoLex used in this project to label words wit emotions. Downloaded from http://sentiment.nrc.ca/lexicons-for-research/
+- NRC-Emotion-Lexicon-Wordlevel-v0.92.txt. The EmoLex used in this project to label words according to their emotions. Downloaded from http://sentiment.nrc.ca/lexicons-for-research/
 
 - eng_stop-wods.txt. List of English stop words. Taken from https://gist.github.com/sebleier/554280
