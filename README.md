@@ -1,13 +1,13 @@
 # emoRead
-Jupyter notebooks written in Python, with the different parts of the code written for the project 'A hybrid readings recommendation system based on emotions'
+Jupyter notebooks written in Python, with the different parts of the code written for the project 'A hybrid readings recommendation system based on emotions'.
 
 The logical order to check them out is:
 
 1. scraper. The corpuses retriever. It gets the raw info about reviews and sinopsys using the Goodreads API and it stores it on a MongoDB collection.
 
-2. metadata. It gets the emotion analysis from the two corpuses, user's reviews and synopsis of the books, and it stores them on MongoDB collections.
+2. metadata. It gets the emotion analysis from the two corpus, user's reviews and synopsis of the books, and it stores them on MongoDB collections.
 
-3. datasetAnalysis. General analysis of the emotions of the texts of the two corpuses considered in the study.
+3. datasetAnalysis. General analysis of the emotions of the texts of the two corpus considered in the study.
 
 4. recSysI. Recommendation system. First steps. Study of solutions to skip decieving texts.
 
